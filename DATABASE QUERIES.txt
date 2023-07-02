@@ -1,0 +1,70 @@
+1..
+CREATE DATABASE NAME
+
+
+2..
+CREATE TABLE TABLE NAME
+(
+    COLUMNNAME DATATYPE(SIZE),
+
+)
+
+
+3..
+INSERT INTO TABLENAME
+VALUES('',''),.....
+      
+      ('','');	
+
+
+4..
+SELECT * OR ATTRIBUTES FROM TABLENAME
+
+5..
+SELECT * FROM TABLENAME
+WHERE ATRTRIBUTE LIKE 'XYZ%';
+
+6..
+SELECT * FROM TABLENAME
+WHERE ATRTRIBUTE LIKE 'XYZ___';
+
+7..
+update table_name set amount = new value
+where amount = old value
+
+8..
+SELECT DISTINCT CNAME AS NAME YOU WANT FROM TABLE_NAME
+
+9..
+DELETE FROM TABLE_NAME
+
+10..
+DROP TABLE TABLE_NAME
+
+11..
+truncate table table_name 
+		
+
+12..
+ALTER TABLE TABLE_NAME
+ADD COLUMN_NAME DATATYPES,COLUMN_NAME DATATYPES
+
+13..
+SP_RENAME OLD TABLE_NAME,NEW TABLE_NAME
+SP_RENAME 'TABLENAME.OLD COLUMN_NAME','NEW COLUMN_NAME'
+
+14..
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
+
+
+15..
+order of syntax
+select
+from
+join
+where
+group by
+having
+order by
