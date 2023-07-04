@@ -68,3 +68,13 @@ where
 group by
 having
 order by
+
+16.. 
+switch case condition
+  set @variable_name = case
+			when @n>0
+			then ....
+			when @n<0
+			then ...
+			else
+			"for default message"
