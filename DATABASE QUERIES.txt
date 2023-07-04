@@ -78,3 +78,10 @@ switch case condition
 			then ...
 			else
 			"for default message"
+
+17..
+create procedure sp_tablename_procedurename
+as
+begin
+	//code
+end
